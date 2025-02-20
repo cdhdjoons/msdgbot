@@ -23,7 +23,7 @@ bot.command("start", async (ctx) => {
 ⚔️ Prepare for a Play-to-Earn experience like never before in Mystic The Gathering!
   `;
 
-  const gifUrl = 'https://fnfsbot.vercel.app/msdgpic.png';  // public 폴더에 있는 GIF 파일 경로
+  const gifUrl = 'https://msdgbot.vercel.app/msdgpic.png';  // public 폴더에 있는 GIF 파일 경로
 
   // ✅ GIF + 메시지 + 버튼을 한 번에 보냄
   await ctx.replyWithAnimation(gifUrl, {
