@@ -11,27 +11,19 @@ await bot.init();
 bot.command("start", async (ctx) => {
   const keyboard = {
     inline_keyboard: [
-      [{ text: "Play Game", web_app: { url: "https://fnfsgame.vercel.app/" } }],  // 게임 링크 수정
-      [{ text: "Follow X", url: "https://x.com/Fnfs_Official" }],
+      [{ text: "Play Game", web_app: { url: "https://mgdggame.vercel.app/" } }],  // 게임 링크 수정
+      [{ text: "Follow X", url: "https://x.com/MSDG_official" }],
       // [{ text: "Join Official Telegram", url: "https://t.me/fnfs_official" }],
     ],
   };
 
   const message = `
-🎉 Welcome to *Fused n Furious*! 🏎💨
-
-Get ready to race, earn, and dominate! Fused n Furious is more than just a game—it's a *P2E revolution* where every race brings new opportunities. 🚀🔥
-
-🏁 *Claim Your N₂O* – Fuel up and boost your rewards!  
-⚡️ *Compete & Earn* – Race your way to the top and stack your winnings!  
-🔥 *Play, Win, Repeat* – The thrill never stops in this high-speed battle!  
-
-The race for N₂O is *ON*! Are you ready to shift into high gear and take the lead? 💨🏆  
-
-🚗 *Let’s race & earn!* 🚗
+✨ Our world is coming to life, and we can’t wait to share it with you!
+🧩 Solve arcane puzzles, harness magical energy, and battle for supremacy.
+⚔️ Prepare for a Play-to-Earn experience like never before in Mystic The Gathering!
   `;
 
-  const gifUrl = 'https://fnfsbot.vercel.app/fnfsgif.gif';  // public 폴더에 있는 GIF 파일 경로
+  const gifUrl = 'https://fnfsbot.vercel.app/msdgpic.png';  // public 폴더에 있는 GIF 파일 경로
 
   // ✅ GIF + 메시지 + 버튼을 한 번에 보냄
   await ctx.replyWithAnimation(gifUrl, {
