@@ -18,9 +18,18 @@ bot.command("start", async (ctx) => {
   };
 
   const message = `
-✨ Our world is coming to life, and we can’t wait to share it with you!
-🧩 Solve arcane puzzles, harness magical energy, and battle for supremacy.
-⚔️ Prepare for a Play-to-Earn experience like never before in Mystic The Gathering!
+✨ Welcome, Planescaller! 🔮
+
+The Aether Rift has opened, and powerful magic surges through the realms. You have been chosen to restore balance, solve arcane puzzles, and master the forces of Aetherion!
+
+🔥 What you can do here:
+🧩 Solve mystical puzzles to unlock powerful spells
+⚔️ Earn MSDG tokens through Play-to-Earn battles
+🌍 Shape the world of Aetherion with your strategy
+
+🚀 Your adventure begins now! Tap below to enter the realm of magic.
+
+🔹 [Start Your Journey]
   `;
 
   const pngUrl = 'https://msdgbot.vercel.app/msdgpic.png';  // public 폴더에 있는 이미지 파일 경로
