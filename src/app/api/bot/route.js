@@ -13,7 +13,7 @@ bot.command("start", async (ctx) => {
     inline_keyboard: [
       [{ text: "Play Game", web_app: { url: "https://mgdggame.vercel.app/" } }],  // 게임 링크 수정
       [{ text: "Follow X", url: "https://x.com/MSDG_official" }],
-      // [{ text: "Join Official Telegram", url: "https://t.me/fnfs_official" }],
+      [{ text: "Join TG Official chat", url: "https://t.me/MSDG_Token" }],
     ],
   };
 
